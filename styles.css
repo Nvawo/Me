@@ -1,0 +1,75 @@
+/* navbar styling */
+
+.navbar {
+    background-color: green;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 300;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #8B6F61;
+    border-radius: 5px;
+    color: #FFF8E1;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+}
+
+
+}
+/* Header styles */
+header{
+    background-color: yellowgreen;
+    color: aquamarine;
+    text-align: center;
+    padding: 30px;
+}
+/* profile image style */
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+body{
+    background-color:blueviolet
+}
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    font-style: normal;
+    background-color: orange;
+}
